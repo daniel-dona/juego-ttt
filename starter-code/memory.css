@@ -1,0 +1,46 @@
+html {
+    background-size: cover;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+#turno{
+    text-align: center;
+    width: 100%;
+    color: #432;
+    font-weight: bold;
+    font-size: 3em;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+#memory_board {
+    background:#dddddd;
+    width:450px;
+	height:450px;
+	padding:20px;
+	margin:0px auto;
+    box-shadow: inset 0px 0px 20px -6px rgba(97,89,97,1);
+}
+
+
+.pos{
+    background-color: #eeeeee;
+	width:130px;
+	height:130px;
+	float:left;
+	margin:0px;
+	margin:10px;
+	font-size:64px;
+}
+
+.pos_x{
+
+    background: url("img/pos_x.png") center center;
+    
+}
+
+.pos_o{
+
+    background: url("img/pos_o.png") center center;
+    
+}
